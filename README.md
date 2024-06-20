@@ -3,3 +3,5 @@ find the top level folder for battleborn on your system. place the binaries imme
 
 must rename DLL to ReBorn.dll
 must rename exe to ReBorn.exe
+
+Also MANY thanks to gwog and NESS199x who did the hard stuff here :P
