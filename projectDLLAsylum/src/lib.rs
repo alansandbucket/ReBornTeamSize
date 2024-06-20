@@ -556,20 +556,6 @@ fn main_thread() {
         ("MenuMap_P", wchz!("open MenuMap_P").to_vec())
     ]);
     let map_ipc_dict_pvp: HashMap<&str, &str> = HashMap::from([
-        ("PvE_Prologue_P", "open PvE_Prologue_P"),
-        ("Caverns_P", "open Caverns_P"),
-        ("Portal_P", "open Portal_P"),
-        ("Captains_P", "open Captains_P"),
-        ("Evacuation_P", "open Evacuation_P"),
-        ("Ruins_P", "open Ruins_P"),
-        ("Observatory_p", "open Observatory_p"),
-        ("Refinery_P", "open Refinery_P"),
-        ("Cathedral_P", "open Cathedral_P"),
-        ("Slums_P", "open Slums_P"),
-        ("Toby_Raid_P", "open Toby_Raid_P"),
-        ("CullingFacility_P", "open CullingFacility_P"),
-        ("TallTales_P", "open TallTales_P"),
-        ("Heart_Ekkunar_P", "open Heart_Ekkunar_P"),
 		("Snowblind_P", "open Snowblind_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
 		("Wishbone_P", "open Wishbone_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
 		("Viaduct_P", "open Viaduct_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
@@ -578,15 +564,12 @@ fn main_thread() {
 		("Ripple_P", "open Ripple_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
 		("Ravine_P", "open Ravine_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
 		("Inc_Stronghold2_P", "open Inc_Stronghold2_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
-		("IncTut_Freeze_P", "open IncTut_Freeze_P"),
 		("IceScort_P", "open IceScort_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
 		("Ghalt_ChainChainChain_P", "open Ghalt_ChainChainChain_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),		
-		("Dojo_P", "open Dojo_P"),
 		("Cascade_P", "open Cascade_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
 		("BlissRuins_P", "open BlissRuins_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
 		("BlissRuins_Headhunter_P", "open BlissRuins_Headhunter_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
-		("BENEDICT_Void_P", "open BENEDICT_Void_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
-		("MenuMap_P", "open MenuMap_P")
+		("BENEDICT_Void_P", "open BENEDICT_Void_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB")
     ]);
 
     println!("ReBorn Injected!");
