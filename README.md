@@ -1,2 +1,2 @@
-# ReBornTeamSize
- added the ability to choose number of bots on teams to ReBorn
+---Instructions---
+find the top level folder for battleborn on your system. place the binaries immediately under that. run ReBorn.exe. Follow the prompts.
