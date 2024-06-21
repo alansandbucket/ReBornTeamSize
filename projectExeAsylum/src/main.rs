@@ -62,7 +62,7 @@ fn main() {
 			println!("26) Temples - Capture");
 			println!("27) Temples - Face-Off");
 			println!("28) Ziggurat - Supercharge");
-			println!("29) Outback - Fase-off");
+			println!("29) Outback - Face-off");
 			println!("30) Paradise - Meltdown");
 			println!("31) Outskirts - Meltdown");
 			println!();
