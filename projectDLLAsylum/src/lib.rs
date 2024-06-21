@@ -569,7 +569,10 @@ fn main_thread() {
 		("Cascade_P", "open Cascade_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
 		("BlissRuins_P", "open BlissRuins_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
 		("BlissRuins_Headhunter_P", "open BlissRuins_Headhunter_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
-		("BENEDICT_Void_P", "open BENEDICT_Void_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB")
+		("BENEDICT_Void_P", "open BENEDICT_Void_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
+        ("Ravine_Headhunter_P","open Ravine_Headhunter_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
+        ("Skirmish_P", "open Skirmish_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
+        ("SlumScort_P","open SlumScort_P?bTournamentMode=1?SpawnBotsTeamA?SpawnBotsTeamB"),
     ]);
 
     println!("ReBorn Injected!");

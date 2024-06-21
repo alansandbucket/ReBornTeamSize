@@ -62,11 +62,14 @@ fn main() {
 			println!("26) Temples - Capture");
 			println!("27) Temples - Face-Off");
 			println!("28) Ziggurat - Supercharge");
+			println!("29) Outback - Fase-off");
+			println!("30) Paradise - Meltdown");
+			println!("31) Outskirts - Meltdown");
 			println!();
 			
 			println!("Or enter the number of one of the following training modes:");
-			println!("29) Versus Training");
-			println!("30) Dojo");
+			println!("32) Versus Training");
+			println!("33) Dojo");
 			
 
 	
@@ -74,7 +77,7 @@ fn main() {
 			let mut map_selection: String = "".to_string();
 			stdin.read_line(&mut map_selection);
 
-			if (map_selection.trim().parse::<i32>().unwrap() >= 15 && map_selection.trim().parse::<i32>().unwrap() <= 28)
+			if (map_selection.trim().parse::<i32>().unwrap() >= 15 && map_selection.trim().parse::<i32>().unwrap() <= 31)
 			{
 				playPVP = "yes".to_string();
 				println!("Type the number of bots you want on your team (0-4):");
@@ -87,7 +90,7 @@ fn main() {
 			}
 			
 			let mut character_selection: String = "".to_string();
-			if (map_selection.trim().parse::<i32>().unwrap() < 15 || map_selection.trim().parse::<i32>().unwrap() > 29)
+			if (map_selection.trim().parse::<i32>().unwrap() < 15 || map_selection.trim().parse::<i32>().unwrap() > 31)
 			{	
 				println!("Type the number of the character you want to play:");
 				
@@ -186,8 +189,11 @@ fn mapMapSelectionToMap(map: String) -> String
 		("26", "BlissRuins_P"),
 		("27", "BlissRuins_Headhunter_P"),
 		("28", "Wishbone_P"),
-		("29", "IncTut_Freeze_P"),
-		("30", "Dojo_P"),
+		("29", "Ravine_Headhunter_P"),
+		("30", "Skirmish_P"),
+		("31", "SlumScort_P"),
+		("32", "IncTut_Freeze_P"),
+		("33", "Dojo_P"),
     ]);
 	
 	return map_ipc_dict[map.as_str()].to_string();
